@@ -1,0 +1,36 @@
+<div class="container">
+    <section class="flex">
+      <section class="sectionImagen">
+        <div class="title">
+          <h2><span>01</span> pick your destination</h2>
+        </div>
+        <div class="imagen">
+          <img src="{{infoPlaneta.img}}" alt="{{infoPlaneta.name}}" />
+        </div>
+      </section>
+    
+        <div class="informacion">
+            <div>
+                <!-- Menu de planetas -->
+                <app-planetas></app-planetas>
+            </div>
+          <div>
+            <h1>{{infoPlaneta.name}}</h1>
+            <p class="texto">
+              {{infoPlaneta.text}}
+            </p>
+            <hr />
+            <div class="datos distancias">
+              <div>
+                <span>AVG.DISTANCE</span>
+                <p>{{infoPlaneta.distance}}</p>
+              </div>
+              <div>
+                <span>EST.TRAVEL TIME</span>
+                <p>{{infoPlaneta.time}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>

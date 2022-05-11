@@ -1,0 +1,26 @@
+a {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tecnologia {
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+    border: 1px solid rgb(255, 255, 255, 0.25);
+}  
+
+.tecnologia:hover {
+    border: 1px solid #ffffff;
+}
+
+span {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36.67px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

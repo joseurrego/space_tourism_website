@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0px 20px ;
+}
+
+.menu a {
+    font-family: 'barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+
+.line {
+    width: 473px;
+    opacity: 0.25;
+}
+
+.cuadroMenu{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    width: 830px;
+    height: 96px;
+    
+}
+
+.menu {
+    width: 542px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 39px 165px 38px 123px;
+}
+
+.menu a:last-child {
+    margin-right: 0;
+}

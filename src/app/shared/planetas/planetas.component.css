@@ -1,0 +1,32 @@
+a {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+nav {
+    border: 3px;
+}
+
+.planeta {
+    text-decoration: none;  
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 2.7px;
+    cursor: pointer;
+    padding: 12px 18px;
+    color: #D0D6F9;
+
+    /* border-radius: 10px; */
+}
+
+a:hover {
+    border-bottom: 3px solid #d0d6f950;
+}
+
+a:active {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+ 

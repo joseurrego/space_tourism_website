@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="flex cuadro">
+      <section class="informacion">
+          <div class="title">
+              <h2><span>03</span> space launch 101</h2>
+          </div>
+          <div class="info">
+            <div>
+                <app-tecnologias></app-tecnologias>
+            </div>
+            <div class="info2">
+                <h3>the terminology...</h3>
+                <h1>
+                    {{infoTecnologia.name}}
+                </h1>
+                <p class="texto">
+                    {{infoTecnologia.description}}
+                </p>
+            </div>
+          </div>
+      </section>
+
+      <section class="imagen">
+          <img src="{{infoTecnologia.img}}" alt="{{infoTecnologia.name}}">
+      </section>
+  </div>
+
+</div>

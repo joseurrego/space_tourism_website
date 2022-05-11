@@ -1,0 +1,13 @@
+a {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+a:hover {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
