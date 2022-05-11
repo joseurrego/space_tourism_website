@@ -5,6 +5,16 @@
     padding: 20px 0 0px 20px ;
 }
 
+.menu {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    width: 830px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
 .menu a {
     font-family: 'barlow';
     font-style: normal;
@@ -14,9 +24,18 @@
     letter-spacing: 2.7px;
     text-decoration: none;
     color: #FFFFFF;
-    margin-right: 10px;
+    margin-right: 20px;
     text-transform: uppercase;
 }
+
+.menu a:hover {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 3px solid #ffffff;
+}
+
 
 
 .line {
@@ -24,22 +43,7 @@
     opacity: 0.25;
 }
 
-.cuadroMenu{
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(81.5485px);
-    width: 830px;
-    height: 96px;
-    
-}
 
-.menu {
-    width: 542px;
-    height: 19px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 39px 165px 38px 123px;
-}
 
 .menu a:last-child {
     margin-right: 0;

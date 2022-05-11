@@ -13,6 +13,16 @@ export class StructureComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.marcarMenu();
+  }
+
+  marcarMenu() {
+    const menuPlanetas = document.querySelectorAll('.planeta');
+    menuPlanetas.forEach((element) => {
+      if (element.innerHTML == this.infoPlaneta.name){
+        element.classList.add("navPlaneta");
+      }
+    } )
   }
 
 }

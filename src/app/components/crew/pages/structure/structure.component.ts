@@ -15,6 +15,16 @@ export class StructureComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.marcarMenu();
+  }
+
+  marcarMenu() {
+    const menuPersonas = document.querySelectorAll('.persona');
+    menuPersonas.forEach((element) => {
+      if (this.infoPersona.role.includes(element.classList[1])){
+        element.classList.add("navPeople");
+      }
+    } )
   }
 
 }

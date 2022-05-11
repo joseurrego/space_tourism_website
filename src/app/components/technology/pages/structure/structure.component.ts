@@ -13,6 +13,16 @@ export class StructureComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.marcarMenu();
+  }
+
+  marcarMenu() {
+    const menuTecnologias = document.querySelectorAll('.tecnologia');
+    menuTecnologias.forEach(element => {
+      if (this.infoTecnologia.name.includes(element.classList[element.classList.length - 1 ])) {
+        element.classList.add('navTecnologia')
+      }
+    });
   }
 
 }
