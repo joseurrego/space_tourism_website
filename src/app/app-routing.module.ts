@@ -20,10 +20,10 @@ const route: Routes = [
         path: "technology",
         loadChildren: () => import('./components/technology/technology.module').then(m => m.TechnologyModule)
     },
-    // {
-    //     path: '**',
-    //     redirectTo: 'home'
-    // }
+    {
+        path: '**',
+        redirectTo: 'home'
+    }
 ];
 
 @NgModule({
