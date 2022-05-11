@@ -28,3 +28,28 @@ body{
     gap: 32px;
 }
 
+/* CSS de propiedades active de las navegaciones */
+
+.navPlaneta {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.navPeople {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+}
+
+.navTecnologia {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.menu a:active {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 3px solid #ffffff;
+}
