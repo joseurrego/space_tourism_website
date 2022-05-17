@@ -36,9 +36,9 @@ _Navigate to `http://localhost:4200/`. The application will automatically reload
 
 _a litle example of this project in the following images_
 
-|  1. Initial Home | 2. Destination View  | 3. Crew View |
+|  1. Home View | 2. Destination View  | 3. Crew View |
 | :------------: | :------------: | :------------: |
-| ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)  | ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)  | ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)  |
+| ![](/src/assets/readme/home_view.jpg)  | ![](/src/assets/readme/destination_view.jpg)  | ![](/src/assets/readme/crew_view.jpg)  |
 
 ## Build 🔨
 
