@@ -1,27 +1,88 @@
-# CursoAngular
+# Space Tourism Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+_This project is a simulation or copy of mockup projects in figma.com ([Figma Project][1])_
+_This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0._
+## Beggining 🚀
 
-## Development server
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Pre-requisitos 📋
 
-## Code scaffolding
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+"@angular/cli": "~13.3.0"
+"typescript": "~4.6.2"
+"node js": "~16.10.0"
+```
 
-## Build
+### Instalación 🔧
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+_Se realiza instalacion de paquetes npm_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install
+```
 
-## Running end-to-end tests
+_then run the following command for a dev server.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+ng serve -o
+```
 
-## Further help
+_Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files._
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+_a litle example of this project in the following images_
+
+|  1. Initial Home | 2. Destination View  | 3. Crew View |
+| :------------: | :------------: | :------------: |
+| ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)  | ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)  | ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)  |
+
+## Build 🔨
+
+_Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory._
+
+## Despliegue 📦
+
+_Agrega notas adicionales sobre como hacer deploy_
+
+## Construido con 🛠️
+
+_Menciona las herramientas que utilizaste para crear tu proyecto_
+
+* [Angular](https://angular.io/docs) - Framework Angular
+* [TypeScript](https://www.typescriptlang.org/docs/) - TypeScript
+* [HTML](#) - Usado para maquetado de paginas
+* [CSS](#) - Usado para generar estilos
+
+## Contribuyendo 🖇️
+
+Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+
+## Wiki 📖
+
+Puedes encontrar mucho más de cómo utilizar este proyecto en mi sitio web [jurrego.com](#)
+
+## Versionado 📌
+
+Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+
+## Autores ✒️
+
+* **Jose Luis Urrego** - *Trabajo Completo* - [joseurrego](https://github.com/joseurrego)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Gracias a mi familia que me ha apoyado en todo mi aprendizaje 🤓.
+* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
+
+
+
+---
+⌨️ con ❤️ por [joseurrego](https://github.com/joseurrego) 😊
