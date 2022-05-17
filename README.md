@@ -1,6 +1,6 @@
 # Space Tourism Website
 
-_This project is a simulation or copy of mockup projects in figma.com ([Figma Project][1])_
+_This project is a simulation or copy of mockup projects in figma.com [Project](https://www.figma.com/file/z2RQ30fS9oomuOutmHv16B/space-tourism-website?node-id=0%3A1562)_
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0._
 ## Beggining 🚀
 
@@ -25,7 +25,7 @@ _Se realiza instalacion de paquetes npm_
 npm install
 ```
 
-_then run the following command for a dev server.
+_then run the following command for a dev server._
 
 ```
 ng serve -o
@@ -44,10 +44,6 @@ _a litle example of this project in the following images_
 
 _Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory._
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 ## Construido con 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
@@ -57,17 +53,10 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [HTML](#) - Usado para maquetado de paginas
 * [CSS](#) - Usado para generar estilos
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
 ## Wiki 📖
 
 Puedes encontrar mucho más de cómo utilizar este proyecto en mi sitio web [jurrego.com](#)
 
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
