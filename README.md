@@ -69,7 +69,7 @@ Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el
 ## Expresiones de Gratitud 🎁
 
 * Gracias a mi familia que me ha apoyado en todo mi aprendizaje 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
+* Dona con cripto a esta dirección: `0xc828744D0486f132C6f9D1A9eD0b295362d4EA08`
 
 
 
